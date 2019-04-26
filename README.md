@@ -14,7 +14,7 @@
 - UMD exports, so your library works everywhere.
 - Based on [CRA v3.0.0](https://github.com/facebook/create-react-app/releases/tag/v3.0.0) (For Vanilla JS libs or React libs)
 - Jest unit testing
-- Customizable file headers for your build [(Example 1)](https://github.com/msztorc/typescript-starter/blob/master/build/index.js) [(Example2)](https://github.com/msztorc/typescript-starter/blob/master/build/index.css)
+- Customizable file headers for your build [(Example 1)](https://github.com/msztorc/typescript-starter/blob/master/build/index.ts) [(Example2)](https://github.com/msztorc/typescript-starter/blob/master/build/index.scss)
 - Configurable `postinstall` message [(Example)](https://github.com/msztorc/typescript-starter/blob/master/bin/postinstall)
 - Weekly [dependabot](https://dependabot.com) dependency updates
 
