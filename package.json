@@ -1,5 +1,5 @@
 {
-  "name": "msztorc/typescript-starter",
+  "name": "typescript-starter",
   "version": "2.2.0",
   "main": "build/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/msztorc/typescript-starter",
   "keywords": [
-    "library"
+    "typescript, es6, starter, library, webpack, sass, web"
   ],
   "license": "MIT",
   "devDependencies": {
