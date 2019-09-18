@@ -16,6 +16,7 @@ require('../config/env');
 
 
 const fs = require('fs');
+const fse = require('fs-extra');
 const chalk = require('react-dev-utils/chalk');
 const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
@@ -129,6 +130,7 @@ checkBrowsers(paths.appPath, isInteractive)
       }
 
       console.log(chalk.cyan('Starting the development server...\n'));
+      copyToPublicFolder();
       openBrowser(urls.localUrlForBrowser);
 
       /**
@@ -165,3 +167,8 @@ checkBrowsers(paths.appPath, isInteractive)
     }
     process.exit(1);
   });
+
+
+function copyToPublicFolder() {
+  fse.copySync(paths.appBuild, paths.appPublic + '/dist');
+}
