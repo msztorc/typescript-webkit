@@ -1,9 +1,14 @@
 import './css/App.scss';
 
 class App {
-  constructor(){
-    console.log("App constructor called");
+  greeting: string;
+  constructor(message: string){
+    this.greeting = message;
   }
+  greet() {
+    return "Hello, " + this.greeting;
+  }
+  
 }
 
 export default App;

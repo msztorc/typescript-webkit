@@ -27,6 +27,7 @@
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/preset-env": "^7.4.3",
     "@svgr/webpack": "4.2.0",
+    "@types/jest": "^24.0.18",
     "@typescript-eslint/eslint-plugin": "1.7.0",
     "@typescript-eslint/parser": "1.7.0",
     "babel-eslint": "10.0.1",
@@ -51,7 +52,7 @@
     "html-webpack-plugin": "4.0.0-beta.5",
     "identity-obj-proxy": "3.0.0",
     "is-wsl": "^2.0.0",
-    "jest": "24.7.1",
+    "jest": "^24.9.0",
     "jest-environment-jsdom-fourteen": "0.1.0",
     "jest-resolve": "24.7.1",
     "jest-watch-typeahead": "0.3.0",
@@ -73,6 +74,7 @@
     "semver": "6.0.0",
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "1.2.3",
+    "ts-jest": "^24.1.0",
     "typescript": "^3.4.5",
     "url-loader": "1.1.2",
     "webpack": "4.30.0",
@@ -121,7 +123,8 @@
     ],
     "testEnvironment": "jest-environment-jsdom-fourteen",
     "transform": {
-      "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest",
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
       "^(?!.*\\.(js|jsx|ts|tsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
     },
@@ -161,5 +164,8 @@
         "@babel/plugin-proposal-class-properties"
       ]
     ]
+  },
+  "dependencies": {
+    "jest-cli": "^24.9.0"
   }
 }
