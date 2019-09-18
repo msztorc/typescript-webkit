@@ -1,5 +1,5 @@
 {
-  "name": "@msztorc/typescript-starter",
+  "name": "msztorc/typescript-starter",
   "version": "2.2.0",
   "main": "build/index.js",
   "scripts": {
