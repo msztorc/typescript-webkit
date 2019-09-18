@@ -1,6 +1,6 @@
 {
   "name": "typescript-kit",
-  "version": "1.2.0",
+  "version": "2.2.0",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/msztorc/typescript-starter"
+    "url": "https://github.com/msztorc/typescript-kit"
   },
   "author": "Miroslaw Sztorc <mr.sztorc@gmail.com> (https://github.com/msztorc)",
   "bugs": {
-    "url": "https://github.com/msztorc/typescript-starter/issues"
+    "url": "https://github.com/msztorc/typescript-kit/issues"
   },
-  "homepage": "https://github.com/msztorc/typescript-starter",
+  "homepage": "https://github.com/msztorc/typescript-kit",
   "keywords": [
     "typescript, es6, starter, library, webpack, sass, web"
   ],
