@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/msztorc/typescript-kit.svg?branch=master)](https://travis-ci.org/msztorc/typescript-kit)
+[![Build Status](https://travis-ci.org/msztorc/typescript-webkit.svg?branch=master)](https://travis-ci.org/msztorc/typescript-webkit)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://www.opensource.org/licenses/MIT)
 
 # TypeScript Library Boilerplate
@@ -17,13 +17,13 @@
 - Based on [CRA v3.0.0](https://github.com/facebook/create-react-app/releases/tag/v3.0.0) (For Vanilla JS libs or React libs)
 - Jest unit testing
 - Customizable file headers for your build
-- Configurable `postinstall` message [(Example)](https://github.com/msztorc/typescript-kit/blob/master/bin/postinstall)
+- Configurable `postinstall` message [(Example)](https://github.com/msztorc/typescript-webkit/blob/master/bin/postinstall)
 - Weekly [dependabot](https://dependabot.com) dependency updates
 
 ## 📦 Getting Started
 
 ```
-git clone https://github.com/msztorc/typescript-kit.git myLib
+git clone https://github.com/msztorc/typescript-webkit.git myLib
 npm install
 ```
 
